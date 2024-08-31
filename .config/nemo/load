@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Loading nemo dconf settings..." >&2
+dconf load /org/nemo/ < ${XDG_CONFIG_HOME:-$HOME/.config}/nemo/dconf
+echo "nemo settings loaded" >&2

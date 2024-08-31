@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Dumping nemo dconf settings..." >&2
+dconf dump /org/nemo/ > ${XDG_CONFIG_HOME:-$HOME/.config}/nemo/dconf
+echo "nemo settings dumped" >&2
