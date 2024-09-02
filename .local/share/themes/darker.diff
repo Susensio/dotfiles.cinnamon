@@ -1,0 +1,85 @@
+228,229c228,229
+<   border-radius: 3px;
+<   background-color: rgba(47, 47, 47, 0.99); }
+---
+>   border-radius: 5px;
+>   background-color: rgba(47, 47, 47, 0.95); }
+456c456
+<   background-color: rgba(47, 47, 47, 0.99);
+---
+>   background-color: rgba(0, 0, 0, 1);
+460,461c460
+< .panel-top {
+<   box-shadow: 0 1px #202020; }
+---
+> .panel-top {}
+464c463,472
+<   box-shadow: 0 -1px #202020; }
+---
+>   background-color: transparent; }
+> 
+> .panel-bottom .panelCenter{
+>   background-gradient-direction: vertical;
+>   background-gradient-end: rgba(0, 0, 0, 0.5);
+>   background-gradient-start: transparent;
+>   padding-left: 10px;
+>   padding-right: 10px;
+>   border-radius: 12px 12px 0 0;
+> }
+805c813
+<   background-color: rgba(147, 178, 89, 0.4);
+---
+>   background-color: rgba(113, 140, 64, 0.4);
+1376c1384,1386
+<   color: rgba(255, 255, 255, 0.67); }
+---
+>   color: rgba(255, 255, 255, 0.67);
+>   border-radius: 5px;
+>   margin: 0px 10px; }
+1568c1578
+<   padding-left: 3px;
+---
+>   padding-left: 1px;
+1574,1575c1584,1586
+<   border: 1px solid rgba(0, 0, 0, 0.4);
+<   background-color: rgba(0, 0, 0, 0.2);
+---
+>   border: 3px solid rgba(0, 0, 0, 1);
+>   border-radius: 6px;
+>   background-color: #454545;
+1577,1580c1588,1590
+<   height: 14px;
+<   color: rgba(255, 255, 255, 0.45);
+<   padding: 3px;
+<   padding-top: 4px;
+---
+>   height: 4px;
+>   color: rgba(255, 255, 255, 1);
+>   padding: 2px;
+1587a1598,1606
+> .workspace-button:hover {
+>   background-color: #606060;
+>   color: #ffffff; }
+> .workspace-button:shaded {
+>   background-color: #252525;
+>   color: #a0a0a0; }
+> .workspace-button:shaded:hover {
+>   background-color: #606060;
+>   color: #b5b5b5; }
+1592,1595c1611
+<       background-color: rgba(147, 178, 89, 0.7);
+<       color: #ffffff; }
+<   .workspace-button:hover {
+<     background-color: rgba(255, 255, 255, 0.07);
+---
+>   background-color: #93b259;
+1665a1682
+>   border-radius: 3px;
+1666a1684,1685
+>   .panel-bottom .applet-box {
+>     border-radius: 5px; }
+1674a1694,1697
+> /* Add transparency to Menu icon on dock */
+>   .panel-bottom .applet-box:hover, .panel-bottom .applet-box:checked {
+>     color: #ffffff;
+>     background-color: rgba(255, 255, 255, 0.17); }
