@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "Dumping Cinnamon dconf settings..." >&2
-dconf dump /org/cinnamon/ > ${XDG_CONFIG_HOME:-$HOME/.config}/cinnamon/dconf
+dconf dump /org/cinnamon/ \
+  | sed '/\[settings-daemon\/plugins\/power\]/,/^$/d' \
+  > ${XDG_CONFIG_HOME:-$HOME/.config}/cinnamon/dconf
 
 for kind in applets desklets extensions themes; do
   echo "Dumping installed ${kind}..." >&2
