@@ -123,13 +123,13 @@
         "type": "switch",
         "default": false,
         "description": "Show player in tooltip",
-        "value": false
+        "value": true
     },
     "tooltipShowArtistTitle": {
         "type": "switch",
         "default": false,
         "description": "Show song artist and title in tooltip",
-        "value": false
+        "value": true
     },
     "__md5__": "ceea7709f6c96376c9f83b9b8ddce0b5"
 }
