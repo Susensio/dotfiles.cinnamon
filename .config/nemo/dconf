@@ -1,3 +1,7 @@
 [preferences]
 show-hidden-files=false
 
+[search]
+search-reverse-sort=false
+search-sort-column='name'
+
