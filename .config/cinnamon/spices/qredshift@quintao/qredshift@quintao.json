@@ -160,7 +160,7 @@
             "Gamma": "gamma"
         },
         "tooltip": "Action when scroll on applet icon.",
-        "value": "bright"
+        "value": "disabled"
     },
     "iconLabel": {
         "type": "checkbox",
