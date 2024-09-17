@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Dumping gnome/terminal dconf settings..." >&2
+dconf dump /org/gnome/terminal/ > ${XDG_CONFIG_HOME:-$HOME/.config}/terminal/dconf
+echo "gnome/terminal settings dumped" >&2

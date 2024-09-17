@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Loading gnome/terminal dconf settings..." >&2
+dconf load /org/gnome/terminal/ < ${XDG_CONFIG_HOME:-$HOME/.config}/terminal/dconf
+echo "gnome/terminal settings loaded" >&2
